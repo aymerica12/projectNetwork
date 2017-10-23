@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cp src/sender.c sender.c
-cpr src/receiver.c receiver.c
+gcc src/sender.c -o sender
+gcc src/receiver.c -o receiver
