@@ -52,6 +52,4 @@ void returnMyIp(char *source_ip)
     }
 
     close(sock);
-
-    return 0;
 }

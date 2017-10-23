@@ -9,7 +9,7 @@
 #include<netinet/udp.h>   //Provides declarations for udp header
 #include<netinet/ip.h>    //Provides declarations for ip header
 #include <arpa/inet.h>
-#include "src/selectserver.c"
+#include "selectserver.c"
 #define TAILLE_MAX 512
 
 /*
